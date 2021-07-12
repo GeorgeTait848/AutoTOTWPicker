@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+cd Environment
+
+virtualenv myjupyternb_env
+
+source myjupyternb_env/bin/activate	
+
+pip3 install -r ../requirementsAndNotebook/requirements.txt
+
+pip3 list
+
+deactivate
+
+
+
+
+
