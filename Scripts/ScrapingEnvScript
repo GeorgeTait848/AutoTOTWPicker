@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+cd ..
+
+cd Environments
+
+virtualenv exampleWebScraping_env
+
+source exampleWebScraping_env/bin/activate
+
+pip3 install requests
+
+pip3 list
+
+deactivate
+
+ 
